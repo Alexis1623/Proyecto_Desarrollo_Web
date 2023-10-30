@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Iniciar Sesión</title>
+        <link href="Login.css/login.css" rel="stylesheet" type="text/css"/>
+        <!-- El charset permite usar palabras con "ñ" y "á" -->
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Iniciar Sesión</h2>
+            <form action="procesar_login.php" method="post">
+                <div>
+                    <!-- Este es el campo de usuario -->
+                    <label for="usuario">
+                        <img src="https://cdn-icons-png.flaticon.com/512/456/456212.png" width="20" height="20" alt="iconousuario">Usuario:
+                    </label>
+                    <input type="text" name="usuario" id="usuario" required>
+                </div>
+
+                <div class="input-container">
+                    <!-- Este es el campo de contraseña -->
+                    <label for="contrasena">
+                        <img src="https://cdn-icons-png.flaticon.com/512/63/63440.png" width="20" height="20" alt="Icono de Contraseña">Contraseña
+                    </label>
+                    <input type="password" name="contrasena" id="contrasena" required>
+                </div>
+                <div class="links">
+                    <!-- Botones de opción para "Admin" y "Empleado" -->
+                    <div class="option-buttons">
+                        <button type="button" class="btn btn-outline-primary small-button" id="botonAdmin">Admin</button>
+                        <button type="button" class="btn btn-outline-primary small-button" id="botonEmpleado">Empleado</button>
+                    </div>
+                    <script>
+                        // Función para manejar el clic en el botón "Admin"
+                        document.getElementById("botonAdmin").addEventListener("click", function () {
+                            // Cambia el estilo del botón "Admin" cuando se selecciona
+                            this.classList.add("selected");
+
+                            // Restaura el estilo del botón "Empleado" si estaba seleccionado
+                            document.getElementById("botonEmpleado").classList.remove("selected");
+                        });
+
+                        // Función para manejar el clic en el botón "Empleado"
+                        document.getElementById("botonEmpleado").addEventListener("click", function () {
+                            // Cambia el estilo del botón "Empleado" cuando se selecciona
+                            this.classList.add("selected");
+
+                            // Restaura el estilo del botón "Admin" si estaba seleccionado
+                            document.getElementById("botonAdmin").classList.remove("selected");
+                        });
+                    </script>  
+                    <input type="submit" value="Iniciar Sesión">
+                    <div class="links">
+                        <a href="index.html">Volver al inicio</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <section data-bs-version="5.1" class="footer3 cid-sFCygHrmNf" once="footers" id="footer3-24">
+            <div class="container-footer">
+                <div class="row align-center mbr-white">
+                    <div class="row row-copirayt">
+                        <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">© Copyright 2023 patito_feo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
+
