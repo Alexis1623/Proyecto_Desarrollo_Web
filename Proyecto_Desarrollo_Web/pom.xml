@@ -14,7 +14,7 @@
 	<name>Proyecto</name>
 	<description>Proyecto Desarrollo Web_Martes 6 a 9 pm</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

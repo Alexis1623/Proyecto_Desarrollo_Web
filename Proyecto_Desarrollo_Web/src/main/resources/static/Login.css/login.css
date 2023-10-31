@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(https://png.pngtree.com/background/20210715/original/pngtree-blue-black-gradient-technology-circuit-background-picture-image_1311169.jpg); 
+}
+
+.container {
+    max-width: 500px;
+    margin: 90px auto;
+    padding: 70px;
+    background-color: gray;
+    border: 1px solid #009999;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+.links a {
+    display: block; 
+    text-decoration: none;  
+    color: white; 
+    margin-bottom: 10px; 
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+    width: 95%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.input-container img {
+}
+.container-footer .row-copirayt{
+    color:white;    
+    
+}
+
+.option-buttons {
+    margin-bottom: 10px;
+}
+
+.small-button {
+    border: 2px solid #000; /* Define un borde sólido */
+    border-radius: 20px; /* Borde redondeado para que se vea como un botón de contorno */
+    padding: 5px 10px; /* Espaciado interno para un aspecto más compacto */
+    background: none; /* Fondo transparente */
+    color: #000; /* Color del texto */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Efecto de transición suave al pasar el cursor */
+}
+.selected {
+    background-color: #fff; /* Color de fondo para botones seleccionados */
+    color: #000; /* Cambio de color de texto para botones seleccionados */
+    border-color: #fff; /* Cambio de color del borde para botones seleccionados */
+    margin-bottom: 5px;
+}
+
+.small-button:hover {
+    background-color: #fff; /* Color de fondo al pasar el cursor */
+    color: #000; /* Cambio de color de texto al pasar el cursor */
+    border-color: #fff; /* Cambio de color del borde al pasar el cursor */
+}
+
+
+input[type="submit"]:hover {
+    background-color: #00d700;
+}
