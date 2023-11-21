@@ -1,0 +1,7 @@
+com\proyectoV2\domain\Producto.class
+com\proyectoV2\ProyectoV2Application.class
+com\proyectoV2\service\impl\ProductoServiceImpl.class
+com\proyectoV2\dao\ProductoDao.class
+com\proyectoV2\service\ProductoService.class
+com\proyectoV2\service\FirebaseStorageService.class
+com\proyectoV2\service\impl\FirebaseStorageServiceImpl.class
