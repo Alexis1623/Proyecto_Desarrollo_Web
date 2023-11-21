@@ -5,3 +5,4 @@ com\proyectoV2\dao\ProductoDao.class
 com\proyectoV2\service\ProductoService.class
 com\proyectoV2\service\FirebaseStorageService.class
 com\proyectoV2\service\impl\FirebaseStorageServiceImpl.class
+com\proyectoV2\controller\ProductoController.class
